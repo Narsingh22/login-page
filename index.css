@@ -1,10 +1,7 @@
 body {
     background-image: url(/mountains.jpeg);
-    background-size: 100%; 
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    color: white;
+    background-size: 100%;  
+    font-size: 24px;  
 }
 
 div.interface {
@@ -17,6 +14,11 @@ div.interface {
     display: grid;
     justify-content: center;
     align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
 }
 
 img {
@@ -45,4 +47,9 @@ button {
     background-color: green;
     color: rgba(255, 255, 255, 0.5);
     font-size: 44px;
+}
+
+p a {
+    text-decoration: none;
+    color: white;
 }

@@ -1,19 +1,14 @@
 body {
     background-image: url(/mountains.jpeg);
-    background-size: 100%;  
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: 24px;  
+    display: flex;
+    justify-content: center;
 }
 
 div.interface {
     background-color: rgba(255, 255, 255, 0.4);
-    position: relative;
-    left: 550px;
-    top: 30px;
-    width: 800px;
-    height: 900px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
 }
 
 .image {
@@ -22,27 +17,30 @@ div.interface {
 }
 
 img {
-    width: 150px;
+    width: 5vw;
     border: 2px solid green;
     border-radius: 50%;
     padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 1em;
+}
+
+form {
+    padding: 0 10px
 }
 
 input {
-    height: 100px;
-    width: 700px;
+    width: 26vw;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 1.5em;
     font-size: 18px;
-    padding-left: 10px;
+    padding: 20px 20px;
 }
 
 button {
-    width: 700px;
-    height: 100px;
-    margin-top: 30px;
+    width: 28.5vw;
+    border: green;
+    margin-top: 0.6em;
+    padding: 5px 0;
     border-radius: 10px;
     background-color: green;
     color: rgba(255, 255, 255, 0.5);
